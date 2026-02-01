@@ -1,0 +1,52 @@
+body {
+  font-family: Arial;
+  background: #f4f6f8;
+}
+
+.app {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.empty-state {
+  text-align: center;
+  color: gray;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+}
+#error-msg {
+  color: red;
+}
+
